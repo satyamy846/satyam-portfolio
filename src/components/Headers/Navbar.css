@@ -16,7 +16,7 @@
     opacity: 0.70;
 }
 
-.items ul{
+.nav-items ul{
     display: flex;
     justify-content: space-between;
     list-style: none;

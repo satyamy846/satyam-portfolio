@@ -1,0 +1,16 @@
+.hero-section-container{
+    background-color: rgb(105, 85, 85);
+    display: flex;
+}
+.hero-section-container{
+    display: flex;
+}
+.hero-image img{
+    width: 400px;
+    height: 300px;
+}
+
+.hero-section-content p::after{
+    content: "\a";
+    white-space: pre;
+}
