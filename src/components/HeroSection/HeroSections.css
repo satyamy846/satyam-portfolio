@@ -1,16 +1,24 @@
 .hero-section-container{
-    background-color: rgb(105, 85, 85);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
 .hero-section-container{
     display: flex;
+    border-radius: 400px
 }
-.hero-image img{
-    width: 400px;
+.hero-image{
+    width: 200;
     height: 300px;
+    border-radius:1000px;
 }
 
-.hero-section-content p::after{
-    content: "\a";
-    white-space: pre;
+.hero-section-content-top{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 100;
+}
+.hero-section-content-left a{
+    color: #fff;
 }
