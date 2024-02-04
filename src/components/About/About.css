@@ -1,0 +1,19 @@
+#about{
+    background-color: #f0f0f0;;
+}
+
+.about-container{
+    display: flex;
+    /* height: fit-content; */
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.about-left-container{
+    width: 60%;
+}
+
+.about-right-container{
+    width: 100%;
+    text-align: center;
+}

@@ -1,3 +1,5 @@
+import Skills from '../Skills/Skill';
+import './About.css';
 const About = () => {
     return (
         <>
@@ -11,18 +13,8 @@ const About = () => {
                     corporis? Voluptatem est saepe assumenda reiciendis adipisci.</p>
                     </div>
                     <div className="about-right-container">
-                        <div className="about-skill-1">
-                            <h4>HTML & CSS</h4>
-                        </div>
-                        <div className="about-skill-2">
-                        <h4>Javascript</h4>
-                        </div>
-                        <div className="about-skill-3">
-                        <h4>Node Js</h4>
-                        </div>
-                        <div className="about-skill-4">
-                        <h4>React Js</h4>
-                        </div>
+                        <h2>Skills</h2>
+                        <Skills/>
                     </div>
                 </div>
             </div>
