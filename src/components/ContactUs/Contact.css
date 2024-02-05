@@ -1,0 +1,12 @@
+#contact{
+    background-color: #f0f0f0;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-container{
+    border: 2px solid black;
+}

@@ -7,7 +7,7 @@ const About = () => {
                 <div className="about-container">
                     <div className="about-left-container">
                     <h2 className="">Who am I?</h2>
-                    <h4 className="">{`I'm Christy Smith, a Web Designer & Photographe`}r</h4>
+                    <h4 className="">{`I'm Satyam Kumar, a Full Stack Developer`}</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, quam esse obcaecati 
                     officiis facilis earum tempore recusandae officia eum laudantium accusantium, tempora sapiente 
                     corporis? Voluptatem est saepe assumenda reiciendis adipisci.</p>

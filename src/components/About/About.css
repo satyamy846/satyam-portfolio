@@ -1,12 +1,11 @@
 #about{
-    background-color: #f0f0f0;;
+    background-color: #f0f0f0;
 }
 
 .about-container{
     display: flex;
-    /* height: fit-content; */
-    /* justify-content: space-between; */
-    gap: 20px;
+    gap: 2rem;
+    padding: 3rem;
 }
 
 .about-left-container{
@@ -14,6 +13,38 @@
 }
 
 .about-right-container{
-    width: 100%;
+    width: 40%;
     text-align: center;
+}
+
+.about-container h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgba(65,47,144,.93);
+}
+
+.about-container h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: system-ui;
+}
+
+.about-container p{
+    font-size: 0.9rem;
+    font-family: system-ui;
+}
+
+@media only screen and (max-width : 768px) and (min-width : 0px) {
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .about-left-container{
+        width: 100%;
+    }
+    .about-right-container{
+        width: 100%;
+    }
 }

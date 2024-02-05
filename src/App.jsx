@@ -6,6 +6,7 @@ import Project from './components/Projects/Project';
 import Experience from './components/Experience/Experience';
 import Contact from './components/ContactUs/Contact';
 import MainImage from './assets/background.jpg'
+import Footer from './components/Footer/Footer';
 function App() {
  
 
@@ -25,6 +26,7 @@ function App() {
      <Project/>
      <Experience/>
      <Contact/>
+     <Footer/>
     </>
   )
 }

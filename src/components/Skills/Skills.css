@@ -1,23 +1,30 @@
 #skills{
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
+}
+.main-skills, .other-skills{
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    min-width: 300px;
+    min-height: 270px;
 }
 .skills-container{
-    display: flex;
-    flex-wrap: nowrap;
     width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
 }
 
 .skills-container .skill{
     border: 2px solid green;
     border-radius: 1rem;
-    /* width: 20%; */
-    /* position: absolute; */
-    width: 30%;
-    display: inline-block;
 }
-.other-skills{
-    
+
+.main-skills, .other-skills h3{
+    color: rgba(65,47,144,.93);
+    font-family: fangsong;
 }
 
 
