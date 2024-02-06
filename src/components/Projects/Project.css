@@ -1,0 +1,87 @@
+/*Project section main container*/
+.project-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;;
+}
+
+/*project title */
+.project-main-container h2{
+    font-size: 3em;
+    color: rgba(65,47,144,.93);
+    margin: 0;
+}
+/* project subtitle */
+.project-main-container h3{
+    font-size: 1em;
+    font-weight: 300;
+    color: #000;
+    font-family: system-ui;
+}
+
+/*contains all cards*/
+.project-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    padding: 60px;
+}
+
+/*single card*/
+.card{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #000;
+    transition: transform 0.5s ease-in-out;
+}
+
+/*Card content */
+.card-content{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Card image*/
+.project-img{
+    width: 100%;
+    height: 70%;
+}
+
+
+/*Project links e.g - github or live*/
+.project-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/*Live and github link*/
+.project-links .live-link, .github-link{
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card hover */
+.card:hover{
+    transform: scale(1.05)
+    
+}

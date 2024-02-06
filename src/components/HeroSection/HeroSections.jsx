@@ -1,5 +1,10 @@
 import Image from '../../assets/My-Image.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { FaTwitter } from "react-icons/fa";
 import './HeroSections.css';
 const HeroSection = () => {
     return (
@@ -16,10 +21,10 @@ const HeroSection = () => {
                                 <a href=""><p>{`LET'S CONNECT`}</p></a>
                             </div>
                             <div className="hero-section-content-right">
-                                <a href=""><FontAwesomeIcon icon="fa-brands fa-facebook-f" /></a>
-                                <a href=""></a>
-                                <a href=""></a>
-                                <a href=""></a>
+                                <a href="" className='hero-section-link'><FaGithub /></a>
+                                <a href="" className='hero-section-link'><FaLinkedin/></a>
+                                <a href="" className='hero-section-link'><SiLeetcode/></a>
+                                <a href="" className='hero-section-link'><FaTwitter/></a>
                             </div>
                        </div>
                     </div>

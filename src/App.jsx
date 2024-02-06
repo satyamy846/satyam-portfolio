@@ -24,8 +24,8 @@ function App() {
      </div>
      <About/>
      <Project/>
-     <Experience/>
-     <Contact/>
+     {/* <Experience/>
+     <Contact/> */}
      <Footer/>
     </>
   )
