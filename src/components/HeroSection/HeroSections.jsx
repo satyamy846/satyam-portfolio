@@ -1,6 +1,4 @@
 import Image from '../../assets/My-Image.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";

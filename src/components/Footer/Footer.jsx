@@ -1,5 +1,8 @@
 import './Footer.css';
-
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { FaTwitter } from "react-icons/fa";
 const Footer = ()=>{
     return (
         <>
@@ -8,10 +11,11 @@ const Footer = ()=>{
                     <div className="footer-title">
                         <h3>Satyam Kumar</h3>
                     </div>
-                    <div className="footer-links">
-                        <a href="">G</a>
-                        <a href="">F</a>
-                        <a href="">L</a>
+                    <div className="footer-link-container">
+                        <a href="" className='footer-link'><FaGithub /></a>
+                        <a href="" className='footer-link'><FaLinkedin/></a>
+                        <a href="" className='footer-link'><SiLeetcode/></a>
+                        <a href="" className='footer-link'><FaTwitter/></a>
                     </div>
                     <div className="footer-content">
                         <p>© Copyright 2022. All right reserved, ATOM.</p>

@@ -20,3 +20,12 @@
     color: #fff;
     font-size: 0.7rem;
 }
+.footer-link-container{
+    display: flex;
+    gap: 20px;
+}
+
+/*Foot link*/
+.footer-link{
+    color: #fff;
+}
