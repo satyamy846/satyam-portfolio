@@ -6,7 +6,68 @@
     align-items: center;
 }
 
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 
 .contact-container{
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.contact-details input{
+    width: 50%;
+    height: 24px;
+}
+
+
+/*Contact Title*/
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-message{
+    width: 100%;
+}
+
+.contact-message textarea{
+    max-width: 605px;
+    min-width: 605px;
+    width: 564px;
+    height: 145px;
+}
+
+.contact-title h2{
+    font-size: 2.6em;
+    color: rgba(65,47,144,.93);
+}
+
+.contact-title h3{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.contact-btn{
+    width: 100px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: rgba(65,47,144,.93);
+    color: #fff;
+    border: 0px;
+    font-size: 1em;
+    font-weight: 700;
 }
