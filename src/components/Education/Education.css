@@ -1,5 +1,5 @@
-/*Experience section*/
-#experience{
+/*education section*/
+#education{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,14 +8,14 @@
     padding: 0 0 100px 0;
 }
 
-/* Experience heading */
-.experience-heading{
+/* education heading */
+.education-heading{
     font-size: 2.5em;
     color: rgba(65,47,144,.93);
 }
 
-/* Experience container */
-.experience-container{
+/* education container */
+.education-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,21 +23,22 @@
     padding: 0 80px;
 }
 
-/* Experience detail (e.g individual experience) */
-.experience-detail{
+/* education detail (e.g individual education) */
+.education-detail{
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
 }
 
-/* Individual experience title */
-.experience-title{
+/* Individual education name */
+.education-name{
     font-size: 1.5em;
     font-family: sans-serif;
     margin: 0 auto;
 }
 
-.experience-sub-title{
+/* Education session (e.g 2020-2023) */
+.education-session{
     display: block;
     font-size:0.7em;
     font-weight: 200;
@@ -45,13 +46,15 @@
     margin-top: 10px;
 }
 
-.experience-position{
+/* Education degree (e.g B.Tech) */
+.education-degree{
     font-size: 0.8em;
     font-weight: 900;
     margin-bottom: 0;
 }
 
-.experience-role-description{
+/* Education name description */
+.education-name-description{
     font-size: 1em;
     font-weight: 100;
     font-family: system-ui;

@@ -1,36 +1,20 @@
+/*Contact page*/
 #contact{
-    background-color: #f0f0f0;
-    height: 600px;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    padding: 30px;
 }
 
 
+/*Contact form container*/
 .contact-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.contact-details{
-    display: flex;
-    justify-content: space-between;
-    gap: 2em;
-}
-
-.contact-details input{
-    width: 50%;
-    height: 24px;
-}
-
 
 /*Contact Title*/
 .contact-title{
@@ -40,27 +24,68 @@
     align-items: center;
 }
 
-.contact-message{
-    width: 100%;
-}
-
-.contact-message textarea{
-    max-width: 605px;
-    min-width: 605px;
-    width: 564px;
-    height: 145px;
-}
-
+/* Contact title  */
 .contact-title h2{
     font-size: 2.6em;
     color: rgba(65,47,144,.93);
 }
 
+/* Contact subtitle  */
 .contact-title h3{
     font-size: 1em;
     font-weight: 400;
 }
 
+
+/*Contact form which contains all the inputs and buttons*/
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Contact details (inputs e.g - name and email) */
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+/*Input fields for contact details*/
+.contact-details input{
+    width: 50%;
+    height: 24px;
+    border-color: #f0f0f0;
+    outline-offset: 1px;
+    outline-color: #01018d;
+    border-radius: 2px;
+}
+
+
+
+/* Contact text message to be written */
+.contact-message{
+    width: 100%;
+}
+
+/* Contact message textatrea */
+.contact-message textarea{
+    max-width: 605px;
+    min-width: 605px;
+    width: 564px;
+    height: 145px;
+    border-color: #f0f0f0;
+    outline-offset: 1px;
+    outline-color: #01018d;
+    border-radius: 2px;
+}
+
+/* .contact-message textarea:focus{
+    outline-offset: 1px;
+    outline-color: #01018d;
+} */
+
+/* Contact button (e.g Send) */
 .contact-btn{
     width: 100px;
     height: 51px;
@@ -70,4 +95,5 @@
     border: 0px;
     font-size: 1em;
     font-weight: 700;
+    cursor: pointer;
 }

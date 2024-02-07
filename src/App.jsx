@@ -7,13 +7,13 @@ import Experience from './components/Experience/Experience';
 import Contact from './components/ContactUs/Contact';
 import MainImage from './assets/background.jpg'
 import Footer from './components/Footer/Footer';
+import Education from './components/Education/Education';
 function App() {
  
 
   return (
     <>
      <div className="main">
-        {/* <img src={MainImage} alt=""  className='main-image'/> */}
         <div className="main-container">
        
         </div>
@@ -24,8 +24,9 @@ function App() {
      </div>
      <About/>
      <Project/>
-     {/* <Experience/>
-     <Contact/> */}
+     <Experience/>
+     <Education/>
+     <Contact/>
      <Footer/>
     </>
   )

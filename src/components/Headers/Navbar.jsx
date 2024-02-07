@@ -1,6 +1,8 @@
 import './Navbar.css';
-import image from '../../assets/portfolio.png'
+import image from '../../assets/portfolio-logo.png';
+import { useState } from 'react';
 const Navbar = ()=>{
+
     return(
         <>
             <header className='header-container'>
@@ -16,7 +18,11 @@ const Navbar = ()=>{
                             <li>Contact Us</li>
                         </ul>
                     </div>
-                    
+                    <div className="resume-btn-container">
+                        <button className="resume-btn">
+                            Download Resume
+                        </button>
+                    </div>
                 </nav>
             </header>
         </>
@@ -24,7 +30,3 @@ const Navbar = ()=>{
 }
 
 export default Navbar;
-
-{/* <div className="resume-btn-container">
-                        <button className="resume-btn">Get My CV</button>
-                    </div> */}
