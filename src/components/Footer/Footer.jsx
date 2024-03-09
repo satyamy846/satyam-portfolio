@@ -18,7 +18,7 @@ const Footer = ()=>{
                         <a href="" className='footer-link'><FaTwitter/></a>
                     </div>
                     <div className="footer-content">
-                        <p>© Copyright 2022. All right reserved, ATOM.</p>
+                        <p>© Copyright 2022. All right reserved. Satyam Kumar.</p>
                     </div>
                     
                 </div>

@@ -8,26 +8,25 @@ import Contact from './components/ContactUs/Contact';
 import MainImage from './assets/background.jpg'
 import Footer from './components/Footer/Footer';
 import Education from './components/Education/Education';
+
 function App() {
  
 
   return (
     <>
+
+    {/* <Navbar/> */}
      <div className="main">
         <div className="main-container">
-       
-        </div>
-        <div className="content-container">
-          <Navbar/>
-          <HeroSection/>
+        <HeroSection/>
         </div>
      </div>
-     <About/>
+     {/* <About/> */}
      <Project/>
-     <Experience/>
+     {/* <Experience/>
      <Education/>
      <Contact/>
-     <Footer/>
+     <Footer/> */}
     </>
   )
 }

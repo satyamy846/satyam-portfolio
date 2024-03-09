@@ -2,21 +2,24 @@
 .project-main-container{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    background-color: #f0f0f0;;
+    background-color: #f0f0f0;
+    padding: 8% 5%;
+}
+.project-header{
+    text-align: center;
 }
 
 /*project title */
-.project-main-container h2{
-    font-size: 3em;
+.project-header h2{
+    font-size: 40px;
     color: rgba(65,47,144,.93);
     margin: 0;
 }
 /* project subtitle */
-.project-main-container h3{
-    font-size: 1em;
-    font-weight: 300;
+.project-header h3{
+    font-size: 20px;
+    font-weight: 400;
     color: #000;
     font-family: system-ui;
 }
@@ -24,61 +27,66 @@
 /*contains all cards*/
 .project-cards-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     width: 100%;
-    gap: 20px;
-    padding-bottom: 100px;
-    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 /*single card*/
 .card{
-    width: 300px;
-    height: 350px;
-    overflow: hidden;
-    object-fit: cover;
+    width: calc(25% - 30px);
+    object-fit: contain;
     border-radius: 8px;
     border: 1px solid #000;
     transition: transform 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 /*Card content */
 .card-content{
-    width: 100%;
-    height: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 30%;
+    padding: 0 1em;
+    gap: 10px;
 }
 
-/*Card image*/
-.project-img{
+.card-content p{
+    font-size:20px;
+    margin: 0;
+    text-align: center;
+}
+
+.card-image-wrapper{
     width: 100%;
     height: 70%;
+    object-fit: contain;
+    overflow: hidden;
 }
 
+.project-img{
+    width: 100%;
+    height: 100%;
+}
 
 /*Project links e.g - github or live*/
 .project-links{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 70px;
 }
 
 /*Live and github link*/
 .project-links .live-link, .github-link{
-    background-color: white;
-    width: 50px;
-    height: 30px;
+    background-color: var(--primary);
+    width: 5em;
+    height: 1.8em;
     text-decoration: none;
     border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 /* Card hover */
@@ -86,3 +94,45 @@
     transform: scale(1.05)
     
 }
+@media screen and (max-width: 1200px){
+    .project-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(33.33% - 30px);
+    }
+}
+
+@media screen and (max-width:900px) {
+    .project-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(50% - 30px);
+    }
+    
+    .card-content p{
+        font-size: 15px;
+    }
+
+    .project-links{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .project-cards-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(100% - 30px);
+    }
+    .card-content p{
+        font-size: 10px;
+    }
+} 
+

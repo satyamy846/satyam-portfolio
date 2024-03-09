@@ -1,82 +1,78 @@
-/* Header container (contains logo, nav items, and get cv button) */
-.header-container{
+
+/* Nav items container */
+.nav-container{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
     width: 100%;
-    /* height: fit-content; */
+    z-index: 3;
+    padding: 0 3%;
 }
+
 
 /* Logo image container */
 .logo-container{
-    width: 120px;
-    height: 30px;
+    width: 10rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
-}
-
-/* Logo image link (navigate to homepage) */
-.logo-container a{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    /* padding-left: 15px; */
 }
 
 /* Logo image  */
 .logo-container .logo-img{
     width: 100%;
     height: 100%;
-    opacity: 0.70;
 }
 
-/* Nav items container */
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-    margin-top: 6px;
-}
+
 
 /* Nav items unordered list */
-.nav-items ul{
+.nav-items {
     display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 50px;
     color: #fff;
+    padding-right: 5%;
 }
 
-/* nav items hover effect */
-.nav-items:hover{
-    cursor: pointer;
+.nav-items li a{
+    text-decoration: none;
+    color: #fff;
+
 }
+
 
 
 /* Resume button container */
 .resume-btn-container{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     width: 120px;
     height: 40px;
+    padding: 10px; */
 }
 
 /* Resume button */
 .resume-btn{
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     border: 0;
     border-radius: 10px;
     cursor: pointer;
-    font-size: smaller;
+    font-size: 0.8em;
     transition: background-color 0.5s ease-in-out;
-    color: #000;
+    color: #000; */
 }
 
 /* Resume button hover effect */
 .resume-btn:hover{
-    background-color: rgb(55 32 111 / 93%);
+    /* background-color: rgb(55 32 111 / 93%);
     
-    color: #fff;
+    color: #fff; */
 }

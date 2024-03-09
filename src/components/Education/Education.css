@@ -10,7 +10,7 @@
 
 /* education heading */
 .education-heading{
-    font-size: 2.5em;
+    font-size: 40px;
     color: rgba(65,47,144,.93);
 }
 
@@ -18,7 +18,6 @@
 .education-container{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 10px;
     padding: 0 80px;
 }
@@ -28,11 +27,20 @@
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
+    width: calc(33.33% - 60px);
+}
+
+.education-detail-heading{
+    height: 50%;
+}
+
+.education-detail-content{
+    height: 50%;
 }
 
 /* Individual education name */
 .education-name{
-    font-size: 1.5em;
+    font-size: 25px;
     font-family: sans-serif;
     margin: 0 auto;
 }
@@ -40,7 +48,7 @@
 /* Education session (e.g 2020-2023) */
 .education-session{
     display: block;
-    font-size:0.7em;
+    font-size:10px;
     font-weight: 200;
     font-family: serif;
     margin-top: 10px;
@@ -48,15 +56,38 @@
 
 /* Education degree (e.g B.Tech) */
 .education-degree{
-    font-size: 0.8em;
+    font-size: 15px;
     font-weight: 900;
     margin-bottom: 0;
 }
 
 /* Education name description */
 .education-name-description{
-    font-size: 1em;
+    font-size: 15px;
     font-weight: 100;
     font-family: system-ui;
     margin-top: 0;
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .education-container{
+        flex-wrap:wrap;
+        margin: 0 auto;
+    }
+
+    .education-detail{
+        width: calc(50% - 60px);
+    }
+}
+
+
+@media (min-width:340px) and (max-width:768px){
+    .education-container{
+        flex-wrap:wrap;
+        margin: 0 auto;
+    }
+
+    .education-detail{
+        width: calc(100% - 60px);
+    }
 }

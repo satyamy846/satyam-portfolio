@@ -97,3 +97,13 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+
+@media (max-width:768px){
+    .contact-details{
+        flex-wrap: wrap;
+    }
+    .contact-details input{
+        width: 100%;
+    }
+}

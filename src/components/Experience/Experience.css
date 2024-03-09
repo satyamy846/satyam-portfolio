@@ -10,7 +10,7 @@
 
 /* Experience heading */
 .experience-heading{
-    font-size: 2.5em;
+    font-size: 40px;
     color: rgba(65,47,144,.93);
 }
 
@@ -18,9 +18,9 @@
 .experience-container{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 10px;
     padding: 0 80px;
+    /* width: 100%; */
 }
 
 /* Experience detail (e.g individual experience) */
@@ -28,25 +28,26 @@
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
+    width: calc(50% - 60px);
 }
 
 /* Individual experience title */
 .experience-title{
-    font-size: 1.5em;
+    font-size: 25px;
     font-family: sans-serif;
     margin: 0 auto;
 }
 
 .experience-sub-title{
     display: block;
-    font-size:0.7em;
+    font-size:10px;
     font-weight: 200;
     font-family: serif;
     margin-top: 10px;
 }
 
 .experience-position{
-    font-size: 0.8em;
+    font-size: 15px;
     font-weight: 900;
     margin-bottom: 0;
 }
@@ -56,4 +57,19 @@
     font-weight: 100;
     font-family: system-ui;
     margin-top: 0;
+}
+
+.experience-description__wrapper li{
+    font-size: 15px;
+}
+
+
+
+@media (min-width:340px) and (max-width:1023px){
+    .experience-container{
+        flex-wrap:wrap;
+    }
+    .experience-detail{
+        width: calc(100% - 60px);
+    }
 }
